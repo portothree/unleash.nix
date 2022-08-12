@@ -1,3 +1,3 @@
 { pkgs ? import <nixpkgs> { } }:
 
-pkgs.mkShell { buildInputs = with pkgs; [ arion ]; }
+pkgs.mkShell { buildInputs = with pkgs; [ arion lazydocker ]; }
