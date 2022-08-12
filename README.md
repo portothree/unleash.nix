@@ -2,6 +2,12 @@
 
 Unleash feature management with Nix
 
+## Requirements
+
+- NixOS >=22.05
+- Docker
+- Nix with flakes enabled (`--extra-experimental-features flakes`)
+
 ## Installation
 
 ```bash
@@ -15,9 +21,9 @@ $ arion up -d
 ## Testing
 
 Visit `localhost:4242`. Log in using:
-   - username: `admin`
-   - password: `unleash4all`
 
+- username: `admin`
+- password: `unleash4all`
 
 ## Creating new feature toggles via API
 
