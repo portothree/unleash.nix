@@ -1,3 +1,7 @@
 .direnv
 
 postgres-data
+
+.env
+
+node_modules/
